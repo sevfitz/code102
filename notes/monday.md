@@ -18,3 +18,4 @@ do first for any project: make sure the readme is up to date (written in markdow
 git add notes/monday.md again
 * git push origin master
 * instead of that, let's only update the lines we have changed.
+another
