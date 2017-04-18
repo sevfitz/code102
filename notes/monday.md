@@ -13,6 +13,8 @@ do first for any project: make sure the readme is up to date (written in markdow
 * later we will need to push it to github. it is only in our directory right now.
 * it is considered bad form to modify an existing commit--it should be ready to go when you share it with the world
 
-Once there has been a change, git status will show you have changes that haven't been committed
-you can commit all the changes by using:
-git add notes/monday.md
+* Once there has been a change, git status will show you have changes that haven't been committed
+* you can commit all the changes by using:
+git add notes/monday.md again
+* git push origin master
+* instead of that, let's only update the lines we have changed.
