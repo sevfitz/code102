@@ -18,4 +18,4 @@ do first for any project: make sure the readme is up to date (written in markdow
 git add notes/monday.md again
 * git push origin master
 * instead of that, let's only update the lines we have changed.
-another
+* git add -p     <— lets you see only the lines changed from the last version of the file and decide if you want to stage them or not. The additions will be in green, the subtractions will be in red. Enter y or n at the prompt.
