@@ -69,6 +69,7 @@ for (var i = 0; i < days.length; i++) {
 }
 
 
+
 // TODO: Replace the "7" in "i < 7" with the length of the array
 
 
