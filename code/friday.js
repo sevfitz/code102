@@ -23,9 +23,8 @@
 
 var day = 'Monday';
 var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-var max = 5;
 
-function dayApp() {
+function remarkOnDay(day) {
 
   if (day === 'Thursday') {
     console.log('Is it Friday yet?');
@@ -36,10 +35,15 @@ function dayApp() {
   } else {
     console.log('Whistle while you work!')
   }
+}
 
+function getDayNumber() {
   for (var j = 0; j < days.length; j++) {
     dayNumber = Math.floor(Math.random() * days.length);
     console.log('index ' + dayNumber + ': ' + days[dayNumber]);
+    day = days[dayNumber];
+    remarkOnDay(day);
   }
 }
-dayApp();
+
+getDayNumber();
